@@ -9,16 +9,24 @@ Route::get('/', function () {
     return view('Home');
 });
 
-Route::get('/admin', function () {
-    return view('Admin');
+Route::get('/equipments-main', function () {
+    return view('Main Equipments');
 });
 
-Route::get('/customer', function () {
-    return view('Customer');
+Route::get('/equipments-dine', function () {
+    return view('Dine Equipments');
 });
 
-Route::get('/about', function () {
-    return view('About');
+Route::get('/equipments-support', function () {
+    return view('Support Equipments');
+});
+
+Route::get('/Pricelist', function () {
+    return view('Price List');
+});
+
+Route::get('/faqs', function () {
+    return view('Faqs');
 });
 
 Route::get('posts/{slug}', [PostController::class, 'show']);

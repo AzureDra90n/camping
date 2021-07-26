@@ -23,10 +23,12 @@
       </a>
 
       <ul class="nav col-12 col-lg-auto me-lg-auto mb-4 mb-md-0 justify-content-center">
-        <li><a aria-current="page" href="/" class="nav-link px-2 text-white{{ request()->is('/') ? ' active' : '' }}">Home</a></li>
-        <li><a href="/admin" class="nav-link px-2 text-white{{ request()->is('admin') ? ' active' : '' }}">Price List</a></li>
-        <li><a href="/customer" class="nav-link px-2 text-white{{ request()->is('customer') ? ' active' : '' }}">About Us</a></li>
-        <li><a href="/about" class="nav-link px-2 text-white{{ request()->is('about') ? ' active' : '' }}">FAQs</a></li>
+        <li><a aria-current="page" href="/" class="nav-link px-2 text-white{{ request()->is('/') ? ' active' : '' }}">HOME</a></li>
+        <li><a href="/equipments-main" class="nav-link px-2 text-white{{ request()->is('Main Equipments') ? ' active' : '' }}">MAIN EQUIPMENTS</a></li>
+        <li><a href="/equipments-dine" class="nav-link px-2 text-white{{ request()->is('Dine Equipments') ? ' active' : '' }}">DINE EQUIPMENTS</a></li>
+        <li><a href="/equipments-support" class="nav-link px-2 text-white{{ request()->is('Support Equipments') ? ' active' : '' }}">HELP & SUPPORT EQUIPMENTS</a></li>
+        <li><a href="/pricelist" class="nav-link px-2 text-white{{ request()->is('Price List') ? ' active' : '' }}">PRICE LIST</a></li>
+        <li><a href="/faqs" class="nav-link px-2 text-white{{ request()->is('Faqs') ? ' active' : '' }}">FAQs</a></li>
       </ul>
 
       <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
