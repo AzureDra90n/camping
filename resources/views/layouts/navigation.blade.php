@@ -13,13 +13,13 @@
       </div>  
       <div class="d-flex justify-content-md-end">
         <div>
-          <ul class="nav col-12 col-lg-auto me-lg-auto mb-4 mb-md-0 justify-content-center">
+          <ul class="nav nav-pills col-12 col-lg-auto me-lg-auto mb-4 mb-md-0 justify-content-center">
           <li><a aria-current="page" href="/" class="nav-link px-2 text-white{{ request()->is('/') ? ' active' : '' }}">HOME</a></li>
-          <li><a href="/equipments-main" class="nav-link px-2 text-white{{ request()->is('Main Equipments') ? ' active' : '' }}">MAIN EQUIPMENTS</a></li>
-          <li><a href="/equipments-dine" class="nav-link px-2 text-white{{ request()->is('Dine Equipments') ? ' active' : '' }}">DINE EQUIPMENTS</a></li>
-          <li><a href="/equipments-support" class="nav-link px-2 text-white{{ request()->is('Support Equipments') ? ' active' : '' }}">HELP & SUPPORT EQUIPMENTS</a></li>
-          <li><a href="/pricelist" class="nav-link px-2 text-white{{ request()->is('Price List') ? ' active' : '' }}">PRICE LIST</a></li>
-          <li><a href="/faqs" class="nav-link px-2 text-white{{ request()->is('Faqs') ? ' active' : '' }}">FAQs</a></li>
+          <li><a href="/equipments-main" class="nav-link px-2 text-white{{ request()->is('equipments-main') ? ' active' : '' }}">MAIN EQUIPMENTS</a></li>
+          <li><a href="/equipments-dine" class="nav-link px-2 text-white{{ request()->is('equipments-dine') ? ' active' : '' }}">DINE EQUIPMENTS</a></li>
+          <li><a href="/equipments-support" class="nav-link px-2 text-white{{ request()->is('equipments-support') ? ' active' : '' }}">HELP & SUPPORT EQUIPMENTS</a></li>
+          <li><a href="/pricelist" class="nav-link px-2 text-white{{ request()->is('pricelist') ? ' active' : '' }}">PRICE LIST</a></li>
+          <li><a href="/faqs" class="nav-link px-2 text-white{{ request()->is('faqs') ? ' active' : '' }}">FAQs</a></li>
           </ul>
         </div>
         <div class="text-end">
