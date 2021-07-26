@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
-@section('title', 'CAMPING FUN | Admin')
+@section('title', 'CAMPING FUN | Price List')
 
 @section('content')
     <div class="container">
-        admin
+        Daftar Harga
     </div>
 @endsection

@@ -4,6 +4,6 @@
 
 @section('content')
     <div class="container">
-        About Us
+        FREQUENTLY ASKED QUESTIONS
     </div>
 @endsection
