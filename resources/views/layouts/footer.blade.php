@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="bg-dark text-center text-white">
+<footer class="stipcky-bottom bg-dark text-center text-white">
   <!-- Grid container -->
   <div class="container p-4">
 
@@ -15,35 +15,25 @@
     </section>
     <!-- Section: Form -->
 
-    <!-- Section: Text -->
-    <section class="mb-4">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-        eum harum corrupti dicta, aliquam sequi voluptate quas.
-      </p>
-    </section>
-    <!-- Section: Text -->
-
     <!-- Section: Links -->
     <section class="">
       <!--Grid row-->
       <div class="row">
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">CAMPING FUN</h5>
+          <h5 class="text-uppercase mt-4">CAMPING FUN</h5>
 
           <ul class="list-unstyled mb-0">
-            <li>
+            <li class="mt-3">
               <a class="text-white text-decoration-none">Jl. ABCDEFG</a>
             </li>
-            <li>
+            <li class="mt-3">
               <a class="text-white text-decoration-none">Bandung, West Java</a>
             </li>
-            <li>
+            <li class="mt-3">
               <a class="text-white text-decoration-none">40121</a>
             </li>
-            <li>
+            <li class="mt-3">
               <a href="#!" class="text-white">campingfun@gmail.com</a>
             </li>
           </ul>
@@ -52,13 +42,13 @@
 
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5>Explore</h5>
+          <h5 class="mt-4">Explore</h5>
 
-          <ul class="list-unstyled mb-0">
+          <ul class="list-unstyled mb-0 mt-3">
             <li>
               <a href="#!" class="text-white">Contact</a>
             </li>
-            <li>
+            <li class="mt-3">
               <a href="#!" class="text-white">About</a>
             </li>
           </ul>
@@ -67,20 +57,14 @@
 
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5>Help</h5>
+          <h5 class="mt-4">Help</h5>
 
-          <ul class="list-unstyled mb-0">
+          <ul class="list-unstyled mb-0 mt-3">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a href="#!" class="text-white">FAQs</a>
             </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
+            <li class="mt-3">
+              <a href="#!" class="text-white">Payment Methods</a>
             </li>
           </ul>
         </div>
@@ -88,20 +72,17 @@
 
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5>Social</h5>
+          <h5 class="mt-4">Social</h5>
 
-          <ul class="list-unstyled mb-0">
+          <ul class="list-unstyled mb-0 mt-3">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a href="#!" class="text-white">Facebook</a>
             </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
+            <li class="mt-3">
+              <a href="#!" class="text-white">Twitter</a>
             </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
+            <li class="mt-3">
+              <a href="#!" class="text-white">Instagram</a>
             </li>
           </ul>
         </div>
@@ -116,7 +97,7 @@
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2021 Copyright | 
-    <a class="text-white" href="">CAMPINGFUN.com</a>
+    <a class="text-white" href="">campingfun.com</a>
   </div>
   <!-- Copyright -->
 </footer>
