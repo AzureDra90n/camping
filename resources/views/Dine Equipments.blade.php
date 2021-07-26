@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
-@section('title', 'CAMPING FUN | Price List')
+@section('title', 'CAMPING FUN | Dine Equipments')
 
 @section('content')
     <div class="container">
-        Daftar Harga
+        Dine Equipments
     </div>
 @endsection
