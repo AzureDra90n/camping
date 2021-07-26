@@ -21,7 +21,7 @@ Route::get('/equipments-support', function () {
     return view('Support Equipments');
 });
 
-Route::get('/Pricelist', function () {
+Route::get('/pricelist', function () {
     return view('Price List');
 });
 
