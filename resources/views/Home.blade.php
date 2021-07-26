@@ -46,8 +46,8 @@
 
           <!-- Card Section -->
 
-          <div class="mt-3 row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
+          <div class="mt-3 row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-md-between">
+            <div class="col d-flex justify-content-md-center align-items-md-center">
               <div class="card border-dark h-100" style="max-width: 19rem">
                 <img src="{{ asset('/img/main-equipment.png') }}" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -56,7 +56,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col d-flex justify-content-md-center align-items-md-center">
               <div class="card border-dark h-100" style="max-width: 19rem">
                 <img src="{{ asset('/img/nesting-equipment.png') }}" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -65,7 +65,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col d-flex justify-content-md-center align-items-md-center">
               <div class="card card border-dark h-100" style="max-width: 19rem">
                 <img src="{{ asset('/img/support-equuipment.png') }}" class="card-img-top" alt="...">
                 <div class="card-body">
