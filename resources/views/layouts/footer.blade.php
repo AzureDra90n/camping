@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="stipcky-bottom bg-dark text-center text-white">
+<footer class="bg-dark text-center text-white">
   <!-- Grid container -->
   <div class="container p-4">
 
@@ -21,11 +21,11 @@
       <div class="row">
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mt-4">CAMPING FUN</h5>
+          <h5 class="text-uppercase mt-4">CAMPING FUN | Outdoor Equipment Rent</h5>
 
           <ul class="list-unstyled mb-0">
             <li class="mt-3">
-              <a class="text-white text-decoration-none">Jl. ABCDEFG</a>
+              <a class="text-white text-decoration-none">Jl. ABCDEFG No.13</a>
             </li>
             <li class="mt-3">
               <a class="text-white text-decoration-none">Bandung, West Java</a>
@@ -61,7 +61,7 @@
 
           <ul class="list-unstyled mb-0 mt-3">
             <li>
-              <a href="#!" class="text-white">FAQs</a>
+              <a href="/faqs" class="text-white">FAQs</a>
             </li>
             <li class="mt-3">
               <a href="#!" class="text-white">Payment Methods</a>

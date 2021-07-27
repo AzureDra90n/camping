@@ -5,5 +5,6 @@
 @section('content')
     <div class="container">
         Main Equipments
+        {{ $dataBrg }}
     </div>
 @endsection

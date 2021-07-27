@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MainController;
 use App\Http\Controllers\PostController;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
@@ -9,9 +10,9 @@ Route::get('/', function () {
     return view('Home');
 });
 
-Route::get('/equipments-main', function () {
-    return view('Main Equipments');
-});
+// Route::get('/equipments-main', function () {
+//     return view('Main Equipments');
+// });
 
 Route::get('/equipments-dine', function () {
     return view('Dine Equipments');
@@ -30,3 +31,5 @@ Route::get('/faqs', function () {
 });
 
 Route::get('posts/{slug}', [PostController::class, 'show']);
+
+Route::get('equipments-main', [MainController::class, 'mainEquipment']);
