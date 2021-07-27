@@ -5,7 +5,7 @@
         <div>
           <a href="/" class="d-flex justify-content-center align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
             <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
-            <span class="fs-4">CAMPING FUN | Outdoor Equiipment Rent</span>
+            <span class="fs-4">CAMPING FUN | Outdoor Equipment Rent</span>
           </a>
           
         </div>

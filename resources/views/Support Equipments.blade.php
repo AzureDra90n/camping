@@ -4,6 +4,10 @@
 
 @section('content')
     <div class="container">
-        Help & Support Equipments
+        <div class="mt-5 text-decoration-underline">
+            <h1 class="text-center">
+                Help & Support Equipments
+            </h1>
+        </div>
     </div>
 @endsection

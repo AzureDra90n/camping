@@ -9,7 +9,7 @@ class MainController extends Controller
 {
     public function mainEquipment()
     {
-        $dataBrg = DB::table('tbl_barang')->where('Nama_Brg');
-        return view('Main Equipments', compact('Nama_Brg'));
+        $dataBrg = DB::table('tbl_barang')->get();
+        return view('Main Equipments', compact('dataBrg'));
     }
 }
