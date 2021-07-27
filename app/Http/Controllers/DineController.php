@@ -5,14 +5,14 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class MainController extends Controller
+class DineController extends Controller
 {
-    public function mainEquipment()
+    public function dineEquipment()
     {
         $dataBrg = DB::table('tbl_barang')
-            ->where('Jenis_Brg', '=', 'Tent')
+            ->where('Jenis_Brg', '=', 'Stove')
             ->get();
 
-        return view('Main Equipments', compact('dataBrg'));
+        return view('Dine Equipments', compact('dataBrg'));
     }
 }
