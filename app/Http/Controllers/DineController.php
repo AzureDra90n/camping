@@ -11,6 +11,10 @@ class DineController extends Controller
     {
         $dataBrg = DB::table('tbl_barang')
             ->where('Jenis_Brg', '=', 'Stove')
+            ->orWhere(function ($query) {
+                $query->where('Jenis_Brg', '=', 'Cooking Set')
+                    ->orWhere('Jenis_Brg', '=', 'Nesting');
+            })
             ->get();
 
         return view('Dine Equipments', compact('dataBrg'));
