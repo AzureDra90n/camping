@@ -10,7 +10,9 @@ class DeskripsiController extends Controller
     public function deskripsiBarang()
     {
         $detailBrg = DB::table('tbl_barang')
-            ->where('Deskripsi')
+            ->where('Deskripsi', '=', 'Tent')
             ->get();
+
+        return view('Main Equipments', compact('detailBrg'));
     }
 }

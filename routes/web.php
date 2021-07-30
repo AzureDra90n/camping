@@ -29,6 +29,6 @@ Route::get('equipments-dine', [DineController::class, 'dineEquipment']);
 
 Route::get('equipments-support', [SupportController::class, 'supportEquipment']);
 
-Route::get('deskripsi-barang', [DeskripsiController::class, 'deskripsiBarang']);
+Route::get('deskripsi', [DeskripsiController::class, 'deskripsiBarang']);
 
 Route::get('posts/{slug}', [PostController::class, 'show']);
