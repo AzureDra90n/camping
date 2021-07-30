@@ -3,6 +3,7 @@
 use App\Http\Controllers\DineController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\SupportController;
+use App\Http\Controllers\DeskripsiController;
 use App\Http\Controllers\PostController;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
@@ -27,5 +28,7 @@ Route::get('equipments-main', [MainController::class, 'mainEquipment']);
 Route::get('equipments-dine', [DineController::class, 'dineEquipment']);
 
 Route::get('equipments-support', [SupportController::class, 'supportEquipment']);
+
+Route::get('deskripsi-barang', [DeskripsiController::class, 'deskripsiBarang']);
 
 Route::get('posts/{slug}', [PostController::class, 'show']);

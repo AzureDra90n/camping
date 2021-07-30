@@ -5,7 +5,7 @@
         <div>
           <a href="/" class="d-flex justify-content-center align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
             <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
-            <span class="fs-4">CAMPING FUN | Outdoor Equipment Rent</span>
+            <span class="fs-4">ALMENT CAMPING</span>
           </a>
           
         </div>
@@ -33,30 +33,59 @@
         </div>
 
         <div class="text-end">
-          <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign-in</button>
-
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  ...
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <button type="button" class="btn btn-outline-warning me-2">Sign-Up</button>
+          <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#exampleModalSignin">Sign-in</button>
+          <button type="button" class="btn btn-outline-warning me-2" data-bs-toggle="modal" data-bs-target="#exampleModalSignup">Sign-Up</button>
         </div>
         
       </div>
     </div>
   </div>
 </header>
+
+{{-- Modal Sign-in  --}}
+<div class="modal fade" id="exampleModalSignin" tabindex="-1" aria-labelledby="exampleModalLabelSignin" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabelSignin">SIGN IN</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+
+      <div class="modal-footer justify-content-center">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Sign In</button>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+{{-- Modal Sign-up  --}}
+<div class="modal fade" id="exampleModalSignup" tabindex="-1" aria-labelledby="exampleModalLabelSignup" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabelSignup">SIGN UP</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+
+      <div class="modal-footer justify-content-center">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Sign Up</button>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

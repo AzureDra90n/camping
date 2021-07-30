@@ -21,20 +21,20 @@
       <div class="row">
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mt-4">CAMPING FUN | Outdoor Equipment Rent</h5>
+          <h5 class="text-uppercase mt-4">ALMENT CAMPING</h5>
 
           <ul class="list-unstyled mb-0">
             <li class="mt-3">
-              <a class="text-white text-decoration-none">Jl. ABCDEFG No.13</a>
+              <a class="text-white text-decoration-none">Jl. Puyuh Dalam II No.5</a>
             </li>
             <li class="mt-3">
-              <a class="text-white text-decoration-none">Bandung, West Java</a>
+              <a class="text-white text-decoration-none">Sadang Serang</a>
             </li>
             <li class="mt-3">
-              <a class="text-white text-decoration-none">40121</a>
+              <a class="text-white text-decoration-none">Kec. Coblong, Bandung, Jawa Barat, 40133</a>
             </li>
             <li class="mt-3">
-              <a href="#!" class="text-white">campingfun@gmail.com</a>
+              <a class="text-white text-decoration-none">Phone. (022) 2506442</a>
             </li>
           </ul>
         </div>
@@ -97,7 +97,7 @@
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2021 Copyright | 
-    <a class="text-white" href="">campingfun.com</a>
+    <a class="text-white" href="">almentcamping.com</a>
   </div>
   <!-- Copyright -->
 </footer>
