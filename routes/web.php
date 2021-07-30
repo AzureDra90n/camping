@@ -21,6 +21,7 @@ Route::get('/faqs', function () {
     return view('Faqs');
 });
 
+
 Route::get('equipments-main', [MainController::class, 'mainEquipment']);
 
 Route::get('equipments-dine', [DineController::class, 'dineEquipment']);
